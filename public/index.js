@@ -1,6 +1,11 @@
-import App from './app.js'
+import App from './app.js';
 
+const app = new App();
 
-const app = new App()
+app.getCharacters();
+app.setFilter()
+app.getCharacter()
 
-app.getCharacters()
+// primeiro chama o getCharacters
+// depois chama o createpaginations
+//

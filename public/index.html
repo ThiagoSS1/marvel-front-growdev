@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./js/bootstrap.js">
     <title>Marvel</title>
 </head>
+
 <body>
-    Consumindo api da marvel
+    <div class="container-fluid home">
+        <div class="row">
+            <header class="col-12">
+                <input type="search" name="search" placeholder="Search" class="text-center mx-auto d-block mt-3">
+            </header>
+        </div>
+        <div class="row">
+            <main class="d-flex flex-row mt-3 flex-wrap" id="list"></main>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2 mt-3">
+                <nav>
+                    <ul class="pagination"></ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="detail d-none">Ok</div>
+        <!-- <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://logodownload.org/wp-content/uploads/2017/05/marvel-logo-0-1536x1536.png"
+                            alt="">
+                    </div>
+                    <div class="col-8">
+                        <button>Voltar</button>
+                        <div>
+                            <strong>Nome</strong>: <span>Fulano</span> <br />
+                            <strong>Nome</strong>: <span>Fulano</span> <br />
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+        <!-- </div>
+        <div class="row">
+            <div class="col-12">
+                <h1>HQs (comic)</h1>
+            </div>
+        </div> -->
+    
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="./index.js"></script>
 </body>
+
 </html>

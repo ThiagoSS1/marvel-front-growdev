@@ -1,0 +1,11 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ThiagoSS1/marvel-front-growdev.git",
+  "author": "Thiago De Seta <thiago_seta@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
